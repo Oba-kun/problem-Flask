@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+{% block content%}
+<header>
+<div class="title">
+  <div class="container">
+  <h1>入札アプリ</h1>
+  </div>
+</div>
+</header>
+<div class="main-wrapper">
+  <div class="container">
+
+    <p>入札を開始します。札をご持参ください。</p>
+
+    <div class="form">
+   <form action="/result" method="post">
+   <label for= "amount" >入札金額</label>
+   <input type="text" name = "amount">
+   <button type="submit">応札する</button>
+  </form>
+   <p>{{amount}}</p>
+   <p></p>
+  </div>
+
+  
+
+     
+   
+
+
+
+  </div>
+</div>
+{% endblock%}
+
+
+  

@@ -1,0 +1,34 @@
+h1,div,a,p{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background-color: antiquewhite;
+}
+
+header{
+  background-color: aquamarine;
+  height: 80px;
+  width: 100%;
+}
+
+.container{
+width: 1000px;
+
+}
+
+.title{
+  color: aliceblue;
+  text-align: center;
+}
+
+.form{
+text-align: center;
+margin-top: 100px;
+}
+
+.form input{
+  width: 100px;
+  height: 40px;
+}
